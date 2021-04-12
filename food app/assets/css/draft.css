@@ -1,0 +1,178 @@
+.app-nav {
+  background-color: #fff !important;
+}
+
+.app-nav .nav-link.active {
+  color: #fa4a0c !important;
+  font-family: Montserrat;
+}
+
+.app-nav .nav-link {
+  color: #252b42 !important;
+  font-family: Montserrat;
+}
+.my-jumbotron {
+  background: url("../image/main/banner.png");
+  height: 512px;
+}
+.font {
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-style: normal;
+  
+}
+.header-h3{
+  padding-top: 5rem;
+  font-size: 20px;
+  font-family: Montserrat;
+  line-height: 20px;
+}
+.header-h1{
+  font-family: Poppins;
+  font-size: 38px;
+  line-height:30px;
+  font-weight: bold;
+}
+
+.header-h4{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height:10px;
+}
+.jumbotron .header-b1 {
+  font-family: Montserrat;
+  border: #fa4a0c;
+  padding: 20px 45px;
+  font-size: medium;
+  background: #fa4a0c;
+  border-radius: 30px;
+}
+.jumbotron .header-b2 {
+  font-family: Montserrat;
+  background: transparent;
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 15px 45px;
+  font-size: medium;
+}
+.header-b2:hover {
+  color: #ffffff;
+}
+.h-50 {
+  max-height: 300px;
+}
+.me-n1 {
+  position: relative;
+  top: -11rem;
+  left: -3rem;
+  width: 300px;
+  height: 500px;
+}
+
+.ms-n1 {
+  position: relative;
+  top: -35rem;
+  right: -2.5rem;
+  width: 150px;
+  height: 300px;
+}
+
+@includemedia-breakpoint-up(sm){ 
+.me-n1 .ms-n1{
+  margin-top:20rem;
+ }
+}
+
+.my-4 {
+  border: 3px solid #adadad;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #000000;
+  font-size: 44px;
+}
+.first{
+  font-weight: bold;
+  font-size: 24px;
+  color: #fa4a0c;
+  font-family: "Montserrat", sans-serif;
+}
+.second {
+  font-weight: bold;
+  font-size: 40px;
+  color: #252b42;
+  font-family: "Montserrat", sans-serif;
+}
+.third {
+  font-weight: 500;
+  font-size: 24px;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+}
+
+.order-3 {
+  padding-left: 3rem;
+}
+.my-jumbotron2 {
+  background: url("../image/main/banner2.png");
+  height: 516px;
+}
+.footer-h2 {
+  padding-top: 10rem;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+.footer-h4 {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.jumbotron .footer-b1 {
+  margin-top: 2rem;
+  font-family: Montserrat;
+  border: #fa4a0c;
+  padding: 20px 45px;
+  font-size: medium;
+  background: #fa4a0c;
+  border-radius: 10px;
+}
+.jumbotron .footer-b2 {
+  margin-top: 2rem;
+  font-family: Montserrat;
+  background: transparent;
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px 45px;
+  font-size: medium;
+}
+.jumbotron .footer-b2:hover {
+  color: #ffffff;
+}
+
+.logo {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  color: #fa4a0c;
+}
+.bi {
+  margin: 1rem;
+}
+
+.copyright {
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
